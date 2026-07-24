@@ -1,0 +1,13 @@
+======================================================================
+SUPPLYVISION ETL VALIDATION LOG
+======================================================================
+Execution Time      : 2026-07-24 09:50:23
+Tables Checked      : 12
+Rows Checked        : 1,591,380
+Missing Values      : 0
+Duplicate PKs       : 0
+Broken FK Records   : 0
+Invalid Values      : 0
+Overall Status      : PASS
+Quality Score       : 100.00%
+======================================================================

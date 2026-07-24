@@ -1,0 +1,5 @@
+Quality Dimension,Checks,Failures,Passed,Status
+Completeness,37,0,37,PASS
+Primary Key Uniqueness,12,0,12,PASS
+Referential Integrity,10,0,10,PASS
+Business Validity,8,0,8,PASS

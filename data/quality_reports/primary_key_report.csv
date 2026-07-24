@@ -1,0 +1,13 @@
+Table,Primary Key,Duplicate Records,Status
+categories,category_id,0,PASS
+customers,customer_id,0,PASS
+employees,employee_id,0,PASS
+orders,order_id,0,PASS
+order_items,order_item_id,0,PASS
+payments,payment_id,0,PASS
+products,product_id,0,PASS
+promotions,promotion_id,0,PASS
+returns,return_id,0,PASS
+shipments,shipment_id,0,PASS
+stores,store_id,0,PASS
+suppliers,supplier_id,0,PASS

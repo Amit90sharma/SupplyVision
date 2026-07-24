@@ -1,0 +1,11 @@
+Child Table,Foreign Key,Parent Table,Parent Key,Invalid Records,Status
+orders,customer_id,customers,customer_id,0,PASS
+orders,store_id,stores,store_id,0,PASS
+orders,promotion_id,promotions,promotion_id,0,PASS
+order_items,order_id,orders,order_id,0,PASS
+order_items,product_id,products,product_id,0,PASS
+products,category_id,categories,category_id,0,PASS
+products,supplier_id,suppliers,supplier_id,0,PASS
+payments,order_id,orders,order_id,0,PASS
+shipments,order_id,orders,order_id,0,PASS
+returns,order_item_id,order_items,order_item_id,0,PASS
