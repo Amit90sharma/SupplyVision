@@ -81,7 +81,27 @@ Stores promotional discounts.
 
 ---
 
-## 7. Orders
+## 7. Date Dimension (dim_date)
+
+| Column | Data Type | Description | Key |
+|---------|-----------|-------------|-----|
+| date | Date | Calendar date | - |
+| date_key | Integer | Surrogate date key (YYYYMMDD) | Primary Key |
+| day | Integer | Day of month | - |
+| day_name | String | Day name (Monday, Tuesday, etc.) | - |
+| day_of_year | Integer | Day number within the year | - |
+| is_month_start | Boolean | Indicates first day of month | - |
+| is_month_end | Boolean | Indicates last day of month | - |
+| is_quarter_start | Boolean | Indicates first day of quarter | - |
+| is_quarter_end | Boolean | Indicates last day of quarter | - |
+
+**Business Purpose:**
+
+Provides a reusable calendar dimension for time-based analytics, enabling reporting by day, month, quarter, and year while supporting efficient time intelligence in Power BI.
+
+---
+
+## 8. Orders
 
 | Column | Data Type | Description | Key |
 |---------|-----------|-------------|-----|
@@ -96,7 +116,7 @@ Stores customer orders.
 
 ---
 
-## 8. Order Items
+## 9. Order Items
 
 | Column | Data Type | Description | Key |
 |---------|-----------|-------------|-----|
@@ -111,7 +131,7 @@ Stores products purchased within each order.
 
 ---
 
-## 9. Payments
+## 10. Payments
 
 | Column | Data Type | Description | Key |
 |---------|-----------|-------------|-----|
@@ -124,7 +144,7 @@ Stores payment transactions.
 
 ---
 
-## 10. Shipments
+## 11. Shipments
 
 | Column | Data Type | Description | Key |
 |---------|-----------|-------------|-----|
@@ -137,7 +157,7 @@ Tracks order delivery.
 
 ---
 
-## 11. Returns
+## 12. Returns
 
 | Column | Data Type | Description | Key |
 |---------|-----------|-------------|-----|
@@ -150,7 +170,7 @@ Stores returned products.
 
 ---
 
-## 12. Employees
+## 13. Employees
 
 | Column | Data Type | Description | Key |
 |---------|-----------|-------------|-----|
